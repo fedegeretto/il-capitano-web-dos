@@ -912,12 +912,12 @@ footer h2{
     }
 
     .container-logos img {
-        max-width: 5rem;
+        max-width: 6rem;
     }
 
     .container-logos {
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
